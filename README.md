@@ -28,9 +28,9 @@ unzip import-tools-*-*.zip && cd import-tools-*-* && ./scripts/start.sh
 Then visit Jira migration tool by website: http://jira-server-ip:port
 
 ## Mapping xlsx
-Chinese version[Jira数据迁移清单.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%207.10%EF%BC%88Server%EF%BC%89%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.xlsx)
+Chinese version: [Jira数据迁移清单.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%207.10%EF%BC%88Server%EF%BC%89%E6%95%B0%E6%8D%AE%E8%BF%81%E7%A7%BB%E6%B8%85%E5%8D%95.xlsx)
 
-English version [Jira migration mapping form.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%20migration%20mapping%20form.xlsx)
+English version: [Jira migration mapping form.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%20migration%20mapping%20form.xlsx)
 
-Japanese version[Jira データ移行リスト.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%20%E3%83%87%E3%83%BC%E3%82%BF%E7%A7%BB%E8%A1%8C%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.xlsx)
+Japanese version: [Jira データ移行リスト.xlsx](https://github.com/BangWork/migration-tool-assets/raw/master/Jira%20%E3%83%87%E3%83%BC%E3%82%BF%E7%A7%BB%E8%A1%8C%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.xlsx)
 
