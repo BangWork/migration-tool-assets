@@ -11,9 +11,10 @@ It will not modify and delete jira server data.
 ---
 
 ## Version Relationship
-|  Tools Version   | ONES Version|Remark|
-|  ----  | ----  |----|
-| v3.x.x  | [3.13.50, ~)|recommended|
+| Tools Version | ONES Version |Remark|
+|---------------|--------------|----|
+| v3.x.x        | [3.13.50, 3.14.0) ||
+| v4.x.x        | [3.14.0, ~)  |recommended|
 
 ---
 
@@ -35,7 +36,7 @@ Japanese version: [Jira データ移行リスト.xlsx](https://github.com/BangWo
 ```bash
 ssh jira@jira-server-ip
 
-unzip import-tools-*-*.zip && cd import-tools-*-* && ./scripts/start.sh
+unzip migration-tool-*-*.zip && cd migration-tool-*-* && ./scripts/start.sh
 ```
 
 Then visit Jira migration tool by website: http://jira-server-ip:port
