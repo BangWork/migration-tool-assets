@@ -12,9 +12,10 @@ It will not modify and delete jira server data.
 
 ## Version Relationship
 
-| Tools Version | ONES Version      | Remark      |
-| ------------- | ----------------- | ----------- |
-| v6.x.x        | [3.14.0, ~)       | recommended |
+
+| Tools Version | ONES Version | Remark      |
+| ------------- | ------------ | ----------- |
+| v6.x.x        | [3.14.0, ~)  | recommended |
 
 ---
 
@@ -44,5 +45,12 @@ ssh jira@jira-server-ip
 unzip migration-tool-*-*.zip && cd migration-tool-*-* && ./scripts/start.sh
 ```
 
-Then visit Jira migration tool by website: http://jira-server-ip:port
+#### Parameters that need to be entered when starting the migration tool
 
+* Please input Migration Tool http port (default: 5001)
+* Please input Jira Local Home (default: /var/atlassian/application-data/jira)[https://confluence.atlassian.com/adminjiraserver/jira-application-home-directory-938847746.html]
+* Please input Jira Attachment Path (default: /var/atlassian/application-data/jira/data/attachments)
+* Please input cache path, at least 20G (default: /data/nas/importer/cache-5001)
+* Is it version 3.14? Please input 0 or 1 (default: 0)
+
+Then visit Jira migration tool by website: http://jira-server-ip:port
