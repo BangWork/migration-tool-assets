@@ -51,6 +51,5 @@ unzip migration-tool-*-*.zip && cd migration-tool-*-* && ./scripts/start.sh
 * Please input Jira Local Home (default: /var/atlassian/application-data/jira)[https://confluence.atlassian.com/adminjiraserver/jira-application-home-directory-938847746.html]
 * Please input Jira Attachment Path (default: /var/atlassian/application-data/jira/data/attachments)
 * Please input cache path, at least 20G (default: /data/nas/importer/cache-5001)
-* Is it version 3.14? Please input 0 or 1 (default: 0)
 
 Then visit Jira migration tool by website: http://jira-server-ip:port
